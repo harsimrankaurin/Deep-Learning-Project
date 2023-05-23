@@ -51,13 +51,15 @@ Thanks!!!!
 
 
 **Contribution:**
-
-| Models        | Training Time | Cost | Parameters  | BLEU Score |
-| ------------- | ------------- | ---- | ----------- | ---------- |
-| LSTM          | 2hrs          | Free | 29,616,257  | 30.12      |
-| BertToBert    | 6hrs          | $10  | 769,021,754 | 47.23      |
-| T5            | 12.6hrs       | $20  | 222,903,552 | 53.33      |
-| Custom Model  | 7.5hrs        | $5   | 148,800     | 22.45      |
+| Tasks | Contributors |
+|-------|--------------|
+| Data Exploration | Harshith, Shwetha |
+| Data Preparation | Harsimran, Karnik, Shwetha, Harshith |
+| LSTM | Harsimran |
+| Bert2Bert | Shwetha |
+| T5 | Karnik |
+| Custom Model | Harshith |
+| Deployment and UI | Harsimran & Karnik |
 
 
 
