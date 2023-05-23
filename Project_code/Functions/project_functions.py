@@ -1,6 +1,7 @@
 from Functions import Train_Models as fnc
 from Classes.data_cleaning import Data_Cleaning
 from Classes.data_preprocessing import Data_Preprocessing
+from Classes.data_exploration import Data_Exploration
 
 def data_cleaning(answers, questions):
 
@@ -65,6 +66,18 @@ def data_preprocessing(cleaned_df):
     # saved the cleaned dataframe:
     preprocessing.save_file_csv(reddit_df, "reddit_df.csv")
     print("Checkpoint Saved \n\n")
+
+def data_exploration(reddit_df):
+    obj_viz = Data_Exploration()
+
+    # Display First Visualization
+    obj_viz.viz_1(reddit_df)
+
+    # Display First Visualization
+    obj_viz.viz_2(reddit_df)
+
+    # Display First Visualization
+    obj_viz.viz_3(reddit_df)
 
 def data_modeling(reddit_df, model_to_train):
 

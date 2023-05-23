@@ -47,6 +47,9 @@ if __name__ == '__main__':
     # Data Preprocessing
     pfnc.data_preprocessing(cleaned_df)
 
+    # Data Exploration
+    pfnc.data_exploration(cleaned_df)
+
     # Load Cleaned dataframe:
     reddit_df = pd.read_csv("./Dataset/Saved_Dataset/reddit_df.csv")
 
